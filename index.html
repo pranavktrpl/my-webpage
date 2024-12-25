@@ -1,12 +1,379 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Welcome to Pranav's Webpage</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pranav - Portfolio</title>
+
+  <!-- Main CSS file -->
+  <link rel="stylesheet" href="styles.css" />
+
+  <!-- Load Lora (for main body & headings) from Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Load Aileron from cdnfonts.com (for nav links & subhead) -->
+  <link
+    rel="stylesheet"
+    href="https://fonts.cdnfonts.com/css/aileron"
+  />
 </head>
 <body>
-    <h1>Hi, Welcome to Pranav's Webpage</h1>
-    <p>It is under development and should be released soon.</p>
+  <!-- Header with brand on the far left, nav centered -->
+  <header>
+    <div class="brand">Pranav</div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#achievements">Scholastic Achievements</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero">
+    <h1>Welcome to My Portfolio</h1>
+    <p>I'm an Undergrad from Indian Institute of Technology Delhi, pursuing a Bachelors of Technology in Civil Engineering with a minor degree in Computer Science. Currently applying for a Masters degree in Computer Science or Data Science.</p>
+  </section>
+
+  <!-- About Section (now showing a "profile card" layout) -->
+  <section id="about">
+    <h2>About Me</h2>
+
+    <!-- Card container: image on the left, details on the right -->
+    <div class="profile-card">
+      <div class="profile-img">
+        <img src="self.jpg" alt="Your Name" class="about-photo" />
+      </div>
+
+      <div class="profile-details">
+        <h3 class="profile-name">Pranav Khetarpal</h3>
+        <h4 class="profile-title">Undergrad, Graduating in 2025</h4>
+        <p class="profile-past">Indian Institute of Technology Delhi, India</p>
+
+        <!-- Social icons row -->
+        <div class="profile-social">
+
+          <!-- Inline SVG for LinkedIn (Harvey-like) -->
+          <a
+            href="https://www.linkedin.com/in/pranavkhetarpal/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn"
+            class="social-link group"
+          >
+            <svg
+              width="19"
+              height="19"
+              viewBox="0 0 19 19"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <g clip-path="url(#clip0_470_174)">
+                <!-- Example truncated path from your screenshot -->
+                <path
+                  d="M17.5936 0H1.40273C0.627148 0 0 0.612305 0 1.36934V17.627C0 18.384 0.627148 19 1.40273 19H17.5936C18.3691 19 19 18.384 19 17.6307V1.36934C19 0.612305 18.3691 0 17.5936 0ZM5.63691 16.1908H2.8166V7.12129H5.63691V16.1908ZM4.22676 5.88555C3.32129 5.88555 2.59023 5.15449 2.59023 4.25273C2.59023 3.35098 3.32129 2.61992 4.22676 2.61992C5.12852 2.61992 5.85957 3.35098 5.85957 4.25273C5.85957 5.15078 5.12852 5.88555 4.22676 5.88555ZM16.1908 16.1908H13.3742V11.7822C13.3742 10.732 13.3557 9.37754 11.9084 9.37754C10.4426 9.37754 10.2199 10.5242 10.2199 11.708V16.1908H7.40703V7.12129H10.1086V8.36074H10.1457C10.5205 7.64824 11.4408 6.89492 12.8102 6.89492C15.6639 6.89492 16.1908 8.77266 16.1908 11.2145V16.1908Z"
+                  fill="#524F49"
+                />
+              </g>
+              <defs>
+                <clipPath id="clip0_470_174">
+                  <rect width="19" height="19" fill="white"></rect>
+                </clipPath>
+              </defs>
+            </svg>
+          </a>
+
+          <!-- X (Twitter) icon as an <img> (or inline SVG if you prefer) -->
+          <a href="https://x.com/pktrpl"
+          target="_blank"
+          rel="noopener noreferrer"
+          aria-label="X"
+          class="social-link group"
+          >
+            <svg
+            width="19"
+            height="19"
+            viewBox="0 0 19 19"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+            >
+                <g clip-path="url(#clip0_470_174)">
+                    <!-- Example truncated path from your screenshot -->
+                    <path
+                    d="M14.5057 1.50781H17.1764L11.3418 8.17641L18.2057 17.2509H12.8313L8.62184 11.7473L3.80527 17.2509H1.13299L7.3737 10.1181L0.789062 1.50781H6.29994L10.1049 6.53833L14.5057 1.50781ZM13.5684 15.6523H15.0482L5.49583 3.02238H3.9078L13.5684 15.6523Z"
+                    fill="#524F49"
+                    />
+                </g>
+          <defs>
+            <clipPath id="clip0_470_174">
+              <rect width="19" height="19" fill="white"></rect>
+            </clipPath>
+          </defs>
+        </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Additional paragraph or details below the card -->
+    <p>Introduce yourself here. Share your passions, interests, and background.</p>
+  </section>
+
+    <section id="education">
+        <h2>Education</h2>
+        
+        <div class="education-entry">
+          <h3>Bachelors of Technology in Civil Engineering</h3>
+          <p class="School">Indian Institute of Technology Delhi</p>
+          <p class="meta">
+            <span>2025</span> 
+            <span class="detail">GPA - 8.234/10</span>
+          </p>
+        </div>
+      
+        <div class="education-entry">
+            <h3>Minor degree in Computer Science</h3>
+            <p class="School">Indian Institute of Technology Delhi</p>
+            <p class="meta">
+              <span>2025</span> 
+              <span class="detail">GPA - 8.08/10</span>
+            </p>
+        </div>
+        
+        <div class="education-entry">
+            <h3>Higher Secondary Education - Class XII (CBSE)</h3>
+            <p class="School">Sant Gyaneshwar Model School, Delhi, India</p>
+            <p class="meta">
+              <span>2021</span> 
+              <span class="detail">Percentage - 96</span>
+            </p>
+          </div>
+        
+          <div class="education-entry">
+            <h3>Secondary Education - Class X (CBSE)</h3>
+            <p class="School">Army Public School, Dhaula Kuan, Delhi, India</p>
+            <p class="meta">
+              <span>2019</span> 
+              <span class="detail">Percentage - 91.4</span>
+            </p>
+          </div>
+        
+      </section>
+      
+
+  <!-- Scholastic Achievements Section -->
+  <section id="achievements">
+    <h2>Scholastic Achievements</h2>
+    <ul class="achievements-list">
+        <li><strong>Department Rank 6:</strong> Holding the 6th position among 100+ students in the Civil Engineering Department.</li>
+        <li>Awarded the Academic Excellence Merit Award twice consecutively in 3rd and 4th Semester.</li>
+        <li>Presented a talk at <strong>NLP for Space Science Workshop</strong> at European Space Agency Madrid, Spain in front of hundreds of global top researchers and developers in Natural Language Processing and Astronomy. <em>September 2024</em></li>
+        <li>Secured an All India Rank 3506 in JEE Advanced 2021 among 250,000 students.</li>
+        <li>Secured an All India Rank 16877 in JEE Mains 2021 among 1 million students.</li>
+    </ul>
+  </section>
+
+<!-- Publications Section -->
+<section id="Publications">
+    <h2>Publications</h2>
+    
+    <!-- Publication Entry 1 -->
+    <div class="publication">
+      <h3>Probing the limitations of multimodal language models for chemistry and materials research</h3>
+      <p class="publication-description">
+        A comprehensive benchmark for evaluating how vision-language models handle real-world chemistry and materials science tasks across three core aspects: data extraction, experimental understanding, and results interpretation.
+        This paper was published in 2024, and currently under review for publishing in Nature Computational Science Journal.
+    </p>
+      <a href="https://arxiv.org/abs/2411.16955" target="_blank" class="publication-link">arxiv link</a>
+    </div>
+    
+    <!-- Publication Entry 2 -->
+    <div class="publication">
+      <h3>MaCBench</h3>
+      <p class="publication-description">
+        It presents a framework to assess AI models using 628 questions on scientific fundamentals, visual data extraction, and lab knowledge, revealing key strengths and gaps in AI performance.
+        This paper was accepted as a Spotlight paper at NeurIPS 2024 Workshop AIforMat. This was the first edition of the final paper which is shared above.
+      </p>
+      <a href="https://openreview.net/forum?id=Q2PNocDcp6" target="_blank" class="publication-link">Read Paper</a>
+    </div>
+    
+    <!-- Publication Entry 2 -->
+    <div class="publication">
+        <h3>AstroLLaMa</h3>
+        <p class="publication-description">
+            AstroLLaMA is a 7B-parameter model fine-tuned on 300,000 astronomy abstracts, achieving 30% lower perplexity than LLaMA-2. It excels in text generation and embedding tasks, supporting astronomy research through its public release.
+            Presented at Workshop on Information Extraction from Scientific Publications, International Joint Conference on Natural Language Processing, 2023
+        </p>
+        <a href="https://arxiv.org/abs/2309.06126" target="_blank" class="publication-link">Read Paper</a>
+    </div>
+      
+  </section>
+  
+  
+<!-- Experience Section -->
+<section id="experience">
+    <h2>Experience</h2>
+    
+    <!-- Experience Entry 1 -->
+    <div class="experience-entry">
+      <h3>Undergraduate Researcher</h3>
+      <p class="experience-subtitle">
+        <em>Prof. N M Anoop Krishnan, M3RG Lab | IIT Delhi</em> (June 2024 - Present)
+      </p>
+      <p class="experience-description">
+        Conducting research to build specialized foundation models and tools tailored for materials science, utilizing advanced NLP techniques and large language models. Focusing on enhancing the analysis and interpretation of material properties and crystal structures through AI-driven methodologies.
+      </p>
+    </div>
+    
+    <!-- Experience Entry 2 -->
+    <div class="experience-entry">
+      <h3>Junior Researcher & Exec-in-service</h3>
+      <p class="experience-subtitle">
+        <em>Dr. Ioana Ciuca, UniverseTBD | Stanford University</em> (May 2023 - Present)
+      </p>
+      <p class="experience-description">
+        <strong>Executive</strong>, Leading a team contributing to the mission of democratizing science through strategic initiatives in AI-driven research, open-source projects, and advancements in scientific benchmarks, data, and reproducible research. See website - <a href="https://universetbd.org/" target="_blank" class="experience-link">UniverseTBD.org</a>
+      </p>
+    </div>
+    
+    <!-- Add more experience entries as needed -->
+    
+  </section>
+  
+<!-- Projects Section -->
+<section id="projects">
+  <h2>Projects</h2>
+  
+  <!-- Project Entry 1 -->
+  <div class="project-entry">
+    <h3>MaCBench</h3>
+    <p class="project-subtitle">
+      <em>Prof. N.M. Anoop Krishnan | M3RG Lab</em>
+    </p>
+    <ul class="project-details">
+      <li>Co-developed MaCBench, a comprehensive benchmark designed to evaluate the performance of vision-language models in real-world chemistry and materials science tasks, focusing on data extraction, experimental understanding, and results interpretation.</li>
+      <li>Conducted systematic evaluations of leading models, identifying strengths in basic perception tasks and limitations in spatial reasoning, cross-modal information synthesis, and multi-step logical inference, providing insights for advancing multimodal AI scientific assistants.</li>
+    </ul>
+  </div>
+  
+  <!-- Project Entry 2 -->
+  <div class="project-entry">
+    <h3>Knowledge Base Effort</h3>
+    <p class="project-subtitle">
+      <em>Prof. N.M. Anoop Krishnan & Prof. Mausam | M3RG Lab</em>
+    </p>
+    <ul class="project-details">
+      <li>Developing a knowledge base and data extraction model to aggregate material science data from scientific literature, forming a foundation for domain-specific large language models.</li>
+      <li>Focused on advanced entity linkage and extracting scientific information such as chemical formulas to enhance data accessibility and usability.</li>
+    </ul>
+  </div>
+  
+  <!-- Project Entry 3 -->
+  <div class="project-entry">
+    <h3>Meta-Agentic Retrieval-Augmented Generation System</h3>
+    <p class="project-subtitle">
+      <em>Hackathon | Inter-IIT Technical Meet, 2024</em>
+    </p>
+    <ul class="project-details">
+      <li>Developed a platform integrating Retrieval-Augmented Generation (RAG) with dynamic knowledge graph creation, enabling real-time data retrieval from diverse sources like academic papers, web content, and live news.</li>
+      <li>Designed a meta-agent for autonomous optimization, agent creation, and feedback incorporation, enhancing adaptability and accuracy.</li>
+    </ul>
+  </div>
+  
+  <!-- Project Entry 4 -->
+  <div class="project-entry">
+    <h3>AstroLLaMA</h3>
+    <p class="project-subtitle">
+      <em>Dr. Ioana Ciuca | UniverseTBD</em>
+    </p>
+    <ul class="project-details">
+      <li>Co-developed AstroLLaMA, a 7-billion-parameter language model fine-tuned from LLaMA-2 using over 300,000 astronomy abstracts from arXiv, achieving a 30% reduction in perplexity compared to LLaMA-2.</li>
+      <li>Facilitated the public release of AstroLLaMA to promote astronomy-focused research, including applications in automatic paper summarization and the development of conversational agents.</li>
+    </ul>
+  </div>
+  
+  <!-- Project Entry 5 -->
+  <div class="project-entry">
+    <h3>Monte Carlo Pricing of Temperature Weather Derivatives</h3>
+    <p class="project-subtitle">
+      <em>Prof. Manabendra Saharia | Course Project</em>
+    </p>
+    <ul class="project-details">
+      <li>Developed a robust methodology for pricing temperature-based weather derivatives using the Ornstein-Uhlenbeck process combined with Monte Carlo simulations.</li>
+      <li>Designed and calibrated models to capture trends, seasonality, and stochastic volatility in temperature data for accurate derivative pricing.</li>
+      <li>Conducted risk-neutral analysis and simulation-based pricing for Heating Degree Day (HDD) options, enabling risk management in weather-sensitive industries.</li>
+      <li>Validated Monte Carlo simulation results against the Black-Scholes model, ensuring accuracy and reliability in derivative pricing.</li>
+    </ul>
+  </div>
+  
+  <!-- Project Entry 6 -->
+  <div class="project-entry">
+    <h3>Implementation and Applications of Machine Learning Algorithms</h3>
+    <p class="project-subtitle">
+      <em>Prof. Rahul Garg | Course Projects</em>
+    </p>
+    <ul class="project-details">
+      <li><strong>Implemented Core ML Algorithms:</strong> Built machine learning models from scratch, including Linear Regression, Ridge Regression, Logistic Regression, and feature selection methods such as PCA and ANOVA. Applied advanced feature engineering techniques to optimize model performance.</li>
+      <li><strong>Deep Learning Architectures:</strong> Developed a 5-layer feed-forward neural network with backpropagation and a 6-layer convolutional neural network (CNN), fully implemented from scratch, to explore neural network design and training dynamics.</li>
+      <li><strong>High-Confidence Predictions Project:</strong> Utilized PyramidNet with SAM (Sharpness-Aware Minimization) optimization on the CIFAR-100 dataset to achieve high-confidence predictions or allow the model to abstain when uncertain.</li>
+      <li><strong>Advanced Classifiers:</strong> Achieved the highest accuracy in class by implementing a 6-class Naive Bayes classifier (Bernoulli and Multinomial) on the LIAR dataset and developed an Oblique Decision Tree with pruning based on validation set performance.</li>
+    </ul>
+  </div>
+  
+  <!-- Project Entry 7 -->
+  <div class="project-entry">
+    <h3>AstroTalks</h3>
+    <p class="project-subtitle">
+      <em>Dr. David Hendriks | UniverseTBD</em>
+    </p>
+    <ul class="project-details">
+      <li>Developed a program leveraging OpenAI's Whisper AI tool to transcribe video datasets accurately.</li>
+      <li>Collaborated with NASA ADS to create and integrate LLM-based pipelines for real-time transcript extraction, topic modeling, and periodic model retraining, enhancing platform performance and accessibility.</li>
+    </ul>
+  </div>
+  
+  <!-- Project Entry 8 -->
+  <div class="project-entry">
+    <h3>Implementation and Use of Data Structures & Algorithms</h3>
+    <p class="project-subtitle">
+      <em>Prof. Keerti Choudhary | Course Projects</em>
+    </p>
+    <ul class="project-details">
+      <li>Developed core data structures and algorithms from scratch, encompassing Stacks, Linked Lists, Dictionaries, Hashmaps, Skip Lists, Binary Trees, BSTs, AVL Trees, 2-4 Trees, Heaps, Graphs, etc., and implemented Dijkstra's, BFS, and DFS algorithms in Java during a comprehensive DSA course.</li>
+      <li>Utilized DFS and other graph algorithms to find the most optimal moves in Snakes and Ladders game. Analyzed the impact of adding a snake/ladder between nodes on game outcomes and identified strategic placements for improved odds.</li>
+      <li>Used Decision Trees and Mini-Max algorithm to play Othello.</li>
+    </ul>
+  </div>
+  
+  <!-- Project Entry 9 -->
+  <div class="project-entry">
+    <h3>Truss Analysis</h3>
+    <p class="project-subtitle">
+      <em>Prof. N.M. Anoop Krishnan | Course Project</em>
+    </p>
+    <ul class="project-details">
+      <li>Built Python-based truss analysis software employing Numpy and Matplotlib libraries for comprehensive structural analysis using FEM, solving equations for displacements, stresses, and visualizing results.</li>
+    </ul>
+  </div>
+  
+</section>
+
+  <!-- Contact Section -->
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>Email: your.email@example.com</p>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2024 Pranav. All rights reserved.</p>
+  </footer>
 </body>
 </html>

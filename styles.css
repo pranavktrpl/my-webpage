@@ -1,0 +1,437 @@
+/* Apply a global box-sizing rule for consistency */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* Define your “gray-950-ink” for the overall background */
+:root {
+  --color-gray-950-ink: 15 14 13; /* Or your desired values */
+}
+
+/* Body uses Lora and a custom ink background */
+body {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  font-family: 'Lora', serif;
+  line-height: 1.6;
+
+  /* Use custom property for background color */
+  --tw-bg-opacity: 1;
+  background-color: rgb(var(--color-gray-950-ink) / var(--tw-bg-opacity));
+}
+
+/* Header bar in pure black, positioned */
+header {
+  position: relative; 
+  background-color: #000000;
+  padding: 20px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  /* Sticky if you prefer:
+     position: sticky; top: 0; z-index: 1000; 
+  */
+}
+
+/* Brand (Pranav) in top-left, slightly larger */
+.brand {
+  position: absolute;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 1.8em; /* Slightly bigger than 1.5em */
+  font-weight: 10;
+  color: #ffffff;
+}
+
+/* Center the navigation */
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+/* Clear out default list styling and spacing */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+/* Each nav item spaced horizontally */
+nav ul li {
+  margin: 0 15px;
+}
+
+/* Nav links use Aileron and smaller text */
+nav ul li a {
+  font-family: 'Aileron', sans-serif; /* Aileron for nav links */
+  font-size: 0.9em;                   /* Slightly smaller */
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    --tw-bg-opacity: 1;
+    /* color: rgb(var(--color-gray-950-ink) / var(--tw-bg-opacity)); */
+  color: #ffcc00; /*Hover color*/
+}
+
+/* Hero Section */
+#hero {
+  text-align: center;
+  color: #ffffff;
+  /* If you want extra top/bottom space:
+     padding: 100px 20px; 
+  */
+}
+
+/* Main hero heading uses Lora bold */
+#hero h1 {
+  margin: 0;
+  font-size: 3em;
+  font-weight: 10; 
+}
+
+/* Hero subheading uses Aileron SemiBold */
+#hero p {
+  font-family: 'Aileron', sans-serif;
+  font-weight: 600;
+  font-size: 1.1em;
+  color: #cccccc;
+  margin-top: 20px;
+}
+
+/* About photo can be circular, if you like */
+.about-photo {
+  display: block;
+  max-width: 200px;
+  margin: 0 auto; /* overridden by .profile-card if needed */
+  border-radius: 50%;
+  /* border: 2px solid #ffffff; optional */
+}
+
+/* Profile card in About section */
+.profile-card {
+  display: flex;
+  align-items: center;
+  background-color: #000; /* or #1a1a1a */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+  margin-bottom: 2em; /* space before next paragraph */
+}
+
+.profile-img {
+  flex: 0 0 auto;
+  margin-right: 20px;
+}
+
+.profile-details {
+  flex: 1;
+}
+
+/* Large name in the card */
+.profile-name {
+  margin: 0;
+  font-size: 1.8em;
+  font-weight: 10;
+  line-height: 1.2;
+}
+
+/* Subtitle or role */
+.profile-title {
+  margin: 10px 0 5px;
+  font-size: 1.3em;
+  font-weight: 10;
+  color: #cccccc;
+}
+
+/* Past experience in smaller text or lighter color */
+.profile-past {
+  margin: 5px 0 20px;
+  font-size: 1em;
+  color: #888888;
+}
+
+/* Social icons row */
+.profile-social {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Each social link / icon style */
+.social-link svg,
+.social-link img {
+  width: 24px;
+  height: 24px;
+  display: block;
+  /* If your SVG path is black, you can invert it, etc. 
+     But here the fill is #524F49, so do as you like. */
+}
+
+
+
+#education {
+    margin-bottom: 60px;
+  }
+  
+  #education h2 {
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 2.5em; 
+    font-weight: 10; /* Lora Bold or your serif of choice */
+  }
+  
+  /* Individual Education Entry */
+  .education-entry {
+    margin-bottom: 20px;
+    font-family: 'Lora', serif;
+  }
+  
+  .education-entry h3 {
+    font-family: 'Lora', serif;
+    font-size: 1.3em;
+    font-weight: 10;
+    margin-bottom: 5px;
+  }
+  
+  .education-entry .School {
+    font-family: 'Aileron', sans-serif;
+    color: #cccccc;
+    font-size: 1em;
+    /* font-weight: 400; */
+    margin: 5px 0;
+  }
+  
+  .education-entry .meta {
+    color: #cccccc;
+    font-size: 0.9em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 5px;
+  }
+  
+  .education-entry .meta .detail {
+    font-family: 'Aileron', sans-serif;
+    color: #cccccc;
+    /* font-weight: 700; */
+}
+  
+
+/* Scholastic Achievements List Styling */
+.achievements-list {
+    list-style-type: disc; /* Default bullet points */
+    /* padding-left: 40px;    Indent the list for better readability */
+    color: #cccccc;        /* Match the text color with other sections */
+    font-family: 'Aileron', sans-serif; /* Ensure it uses the main body font */
+    font-size: 1em;        /* Maintain consistent font size */
+  }
+  
+.achievements-list li {
+    margin-bottom: 10px; /* Space between each achievement */
+}
+  
+/* Publications Section */
+#Publications {
+    padding: 60px 20px; /* Consistent padding with other sections */
+    /* background-color: #1a1a1a; Optional: Different background for contrast */
+  }
+  
+  /* Publication Entry */
+  .publication {
+    background-color: #000000; /* Black background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5); /* Similar to .profile-card */
+  }
+  
+  /* Publication Title */
+  .publication h3 {
+    font-family: 'Lora', serif; /* Lora for headings */
+    color: #ffffff; /* White color */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 10;
+  }
+  
+  /* Publication Description */
+  .publication-description {
+    font-family: 'Aileron', sans-serif; /* Aileron for description */
+    color: #cccccc; /* Light gray color */
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+  
+  /* Publication Link */
+  .publication-link {
+    font-family: 'Aileron', sans-serif; /* Aileron for links */
+    color: #ffcc00; /* Highlight color for links */
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .publication-link:hover {
+    text-decoration: underline;
+    color: #ffffff; /* Optional: Change color on hover */
+  }
+  
+/* Existing CSS rules */
+
+/* ... [Previous CSS content] ... */
+
+/* Experience Section */
+#experience {
+    padding: 60px 20px; /* Consistent padding with other sections */
+    /* background-color: #1a1a1a; Optional: Different background for contrast */
+  }
+  
+  /* Individual Experience Entry */
+  .experience-entry {
+    background-color: #000000; /* Black background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5); /* Similar to .profile-card */
+  }
+  
+  /* Experience Title */
+  .experience-entry h3 {
+    font-family: 'Lora', serif; /* Lora for headings */
+    color: #ffffff; /* White color */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 10;
+  }
+  
+  /* Experience Subtitle (Supervisor, Lab, Duration) */
+  .experience-subtitle {
+    font-family: 'Aileron', sans-serif; /* Aileron for subtitle */
+    color: #cccccc; /* Light gray color */
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+  
+  /* Experience Description */
+  .experience-description {
+    font-family: 'Aileron', sans-serif; /* Aileron for description */
+    color: #cccccc; /* Light gray color */
+    font-size: 1em;
+    margin-bottom: 15px;
+    line-height: 1.5;
+  }
+  
+  /* Experience Link */
+  .experience-link {
+    font-family: 'Aileron', sans-serif; /* Aileron for links */
+    color: #ffcc00; /* Highlight color for links */
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .experience-link:hover {
+    text-decoration: underline;
+    color: #ffffff; /* Optional: Change color on hover */
+  }
+  
+  /* Responsive Design for Experience Section */
+  @media (max-width: 600px) {
+    .experience-entry {
+      padding: 15px;
+    }
+    
+    .experience-entry h3 {
+      font-size: 1.3em;
+    }
+    
+    .experience-subtitle,
+    .experience-description,
+    .experience-link {
+      font-size: 0.9em;
+    }
+  }
+
+/* Projects Section */
+#projects {
+    padding: 60px 20px;
+    /* background-color: #1a1a1a; Optional: Different background for contrast */
+  }
+  
+  /* Individual Project Entry */
+  .project-entry {
+    background-color: #000000; /* Black background */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5); /* Similar to .profile-card */
+  }
+  
+  .project-entry h3 {
+    font-family: 'Lora', serif; /* Lora for headings */
+    color: #ffffff; /* White color */
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    font-weight: 10;
+  }
+  
+  .project-subtitle {
+    font-family: 'Aileron', sans-serif; /* Aileron for subtitle */
+    color: #cccccc; /* Light gray color */
+    font-size: 1em;
+    margin-bottom: 15px;
+  }
+  
+  .project-details {
+    list-style-type: disc;
+    padding-left: 20px;
+    color: #cccccc;
+    font-family: 'Aileron', sans-serif;
+    font-size: 1em;
+  }
+  
+  .project-details li {
+    margin-bottom: 10px;
+  }
+  
+  /* Project Link (if any) */
+  .project-link {
+    font-family: 'Aileron', sans-serif;
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  
+  .project-link:hover {
+    text-decoration: underline;
+    color: #ffffff;
+  }
+    
+
+/* Generic sections styling */
+section {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5em;
+  font-weight: 10; /* Lora bold for subheadings */
+}
+
+/* Footer styling */
+footer {
+  text-align: center;
+  padding: 20px 0;
+  background-color: #000000;
+  border-top: 1px solid #333333;
+  color: #cccccc;
+}
