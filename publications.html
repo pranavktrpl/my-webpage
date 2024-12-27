@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Pranav - Scholastic Achievements</title>
+
+  <!-- Main CSS file -->
+  <link rel="stylesheet" href="css/styles.css" />
+
+  <!-- Load Lora (for main body & headings) from Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Lora:wght@400;700&display=swap"
+    rel="stylesheet"
+  />
+
+  <!-- Load Aileron from cdnfonts.com (for nav links & subhead) -->
+  <link
+    rel="stylesheet"
+    href="https://fonts.cdnfonts.com/css/aileron"
+  />
+</head>
+<body>
+  
+  <!-- Include Header -->
+  <div data-include="header.html"></div>
+  
+<!-- Publications Section -->
+<section id="Publications">
+    <h2>Publications</h2>
+    
+    <!-- Publication Entry 1 -->
+    <div class="publication">
+      <h3>Probing the limitations of multimodal language models for chemistry and materials research</h3>
+      <p class="publication-description">
+        A comprehensive benchmark for evaluating how vision-language models handle real-world chemistry and materials science tasks across three core aspects: data extraction, experimental understanding, and results interpretation.
+        This paper was published in 2024, and currently under review for publishing in Nature Computational Science Journal.
+    </p>
+      <a href="https://arxiv.org/abs/2411.16955" target="_blank" class="publication-link">arxiv link</a>
+    </div>
+    
+    <!-- Publication Entry 2 -->
+    <div class="publication">
+      <h3>MaCBench</h3>
+      <p class="publication-description">
+        It presents a framework to assess AI models using 628 questions on scientific fundamentals, visual data extraction, and lab knowledge, revealing key strengths and gaps in AI performance.
+        This paper was accepted as a Spotlight paper at NeurIPS 2024 Workshop AIforMat. This was the first edition of the final paper which is shared above.
+      </p>
+      <a href="https://openreview.net/forum?id=Q2PNocDcp6" target="_blank" class="publication-link">Read Paper</a>
+    </div>
+    
+    <!-- Publication Entry 2 -->
+    <div class="publication">
+        <h3>AstroLLaMa</h3>
+        <p class="publication-description">
+            AstroLLaMA is a 7B-parameter model fine-tuned on 300,000 astronomy abstracts, achieving 30% lower perplexity than LLaMA-2. It excels in text generation and embedding tasks, supporting astronomy research through its public release.
+            Presented at Workshop on Information Extraction from Scientific Publications, International Joint Conference on Natural Language Processing, 2023
+        </p>
+        <a href="https://arxiv.org/abs/2309.06126" target="_blank" class="publication-link">Read Paper</a>
+    </div>
+      
+  </section>
+
+  <!-- Include Footer -->
+  <div data-include="footer.html"></div>
+
+  <!-- Include Header and Footer JavaScript -->
+  <script src="js/header.js"></script>
+</body>
+</html>

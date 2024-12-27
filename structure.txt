@@ -1,0 +1,19 @@
+portfolio/
+│
+├── index.html            // Home / Hero Section
+├── about.html            // About Section
+├── education.html        // Education Section
+├── achievements.html     // Scholastic Achievements Section
+├── publications.html     // Publications Section
+├── experience.html       // Experience Section
+├── projects.html         // Projects Section
+├── contact.html          // Contact Section
+│
+├── css/
+│   └── styles.css        // Shared CSS File
+│
+├── images/
+│   └── self.jpg          // Profile Photo and other images
+│
+└── js/
+    └── scripts.js        // (Optional) Shared JavaScript File
