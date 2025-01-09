@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Pranav - Scholastic Achievements</title>
+  <title>Pranav - Contact</title>
 
   <!-- Main CSS file -->
   <link rel="stylesheet" href="css/styles.css" />
@@ -27,8 +27,8 @@
   
 <!-- Contact Section Content -->
 <section id="contact">
-    <h2>Contact</h2>
-    <form action="https://formspree.io/f/your-form-id" method="POST" class="contact-form">
+    <h2>Contact Me :)</h2>
+    <form action="https://formspree.io/f/mrbbrgoj" method="POST" class="contact-form">
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required />
   
@@ -40,10 +40,17 @@
   
       <button type="submit">Send</button>
     </form>
+    <div id="confirmation-message" style="display:none; margin-top:20px; color:#ffcc00; font-family:'Aileron', sans-serif;">
+      Thank you for your message! I will get back to you soon.
+  </div>
+  
   </section>
     
   <!-- Include Footer -->
   <div data-include="footer.html"></div>
+
+  <!-- Script to return the Thank You message on submission -->
+  <script src="js/contact.js"></script>
 
   <!-- Include Header and Footer JavaScript -->
   <script src="js/header.js"></script>

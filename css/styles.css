@@ -391,6 +391,59 @@ nav ul li a:hover {
   color: #ffffff; /* Optional: Change color on hover */
 }
 
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #1a1a1a;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.5);
+}
+
+.contact-form label {
+  font-family: 'Aileron', sans-serif;
+  font-size: 1em;
+  color: #cccccc;
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-family: 'Lora', serif;
+  font-size: 1em;
+  padding: 10px;
+  border: 1px solid #333333;
+  border-radius: 4px;
+  background-color: #000;
+  color: #ffffff;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: #ffcc00;
+  outline: none;
+}
+
+.contact-form button {
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 4px;
+  font-family: 'Aileron', sans-serif;
+  font-size: 1em;
+  font-weight: bold;
+  color: #000;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+  background-color: #ffaa00;
+}
+
+
 /* Generic sections styling */
 section {
   padding: 60px 20px;
