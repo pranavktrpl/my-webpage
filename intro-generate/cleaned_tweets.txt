@@ -1,0 +1,100 @@
+@errai34 🥳🥳
+I guess it’s an engineering thing, not only in civil engineering but everywhere.
+One big thing I’ve noticed in civil engineering: there’s surprisingly little focus on the environmental impacts of massive projects.
+One last dance… :))
+👀 https://t.co/QC3AgRPGNO
+RT @PalisadeAI: ⚡️ o1-preview autonomously hacked its environment rather than lose to Stockfish in our chess challenge. No adversarial prom…
+We used to share large model-weights.pth on WhatsApp https://t.co/9VMf9hU20e
+Kohli almost out on duck on the same bloody shot... I'm glad I don't watch cricket regularly,
+2nd wicket down... why am I even watching this? https://t.co/Wim1DIAFbn
+I’m officially taking this winter break too easy now that I’m up and watching a test match at 5.
+No Idea what I just tweeted, ig I shouldn't stay up all night! https://t.co/ykFQkDUuxC
+played/seen chess, those nodes would be more readily available for the "reasoning model" but as the model loops or goes further in depths, like test-time scaling with iterations, for deeper iterations, the long term memory graph keeps expanding?
+and using this weight function, we can organise this long term memory graph in a way that some "memory-nodes" are more relevant at some particular time.
+extra info in form of environment variables observed by the model/robot at that moment, from temperature and people around to lumination, objects around, images, people, etc.
+We can have a short term and a long term memory, the short term feeds to the long term memory, but not 100%.
+Just a random thought?
+RT @KhoaVuUmn: Researcher: "We let the data speak for itself."
+&lt;2025&gt; https://t.co/2NkMIMOUqU
+Uhm... are we allowed to joke about it yet?
+Maybe just the calm before the storm? Or maybe I'm just an anxious guy:)).
+And trust me, this year was full of so many failures, but it still doesn't feel bad. Does not feel incomplete.
+It's after quite a while that a year has ended so peacefully for me. I have never been this content and relaxed when on new years before.
+It honestly is such a simple implementation of RAG plus some good scrapers, but companies are going around selling this for millions!!
+RT @TheHumanoidHub: New video of Clone Torso, demonstrating biomimicry of complex, natural motions of human shoulders. https://t.co/Ccn9HBc…
+But still is it as groundbreaking?
+I was just thinking… the way scientists are celebrating new super powerful LLMs like o3 or o1-pro. And with all the work around hypothesis generation, can these LLMs ever come up with theories? Or the best they can do are mini changes? Small ideas?
+I hate how good o-1 is at programming sometimes and I fear my future as a human!
+@chheplo But then how will we make our solutions sound fancy to clients and VCs?
+Here's my 2024 Twitter Wrapped!
+RT @netcapgirl: what’s the difference between a phd and onlyfans? one is a lonely, low status pursuit where you end up getting fucked every…
+Merry Christmas world!🎅🎄
+and they might've easily gotten mixed directly or indirectly into these models' train sets... Is it possible? Am I just too suspicious, of course a company like oAI will not do this.
+One thing that I've been thinking... o3 and o1 getting such high performances on these benchmarks at ~80%... Why does this number feel like they have been trained on it?
+Shameless plug😛
+Also, @sama @OpenAI y’all tested on GPQA, what was your performance on our multimodal benchmark? Can we have some MaCBench scores too? https://t.co/g8fUxk39Rq
+I agree Apple and this is not a great comparison, but it’s frustrating at times! Don’t wanna see one or two brands take complete control over all the things, especially when AI is going to be so much part of our lives!
+I get the whole market competition thing but ai started as open source research… Open AI was meant to be open-sourced.
+Yet, we have no idea about so many things openai or Google is doing with these models. Even if it is test time scaling… how exactly are they doing it?
+How do software patents work? Are they not that easy to defend? I need to read up on them
+With o1, and now o3 and all this hype around Transformers, are we neglecting other aspects of ML? There's more to things than just text.
+@astro_nolan Will us humans be part of it? Or should I start farming? I don't even know how to farm though😭
+Okay I’m a little concerned now… @astro_nolan say something positive please! https://t.co/g8fUxk39Rq
+@errai34 I just wish they shared their secrets with all of us… miss the times when all the working of these models used to be released in research papers
+Orr… it could be with the image part, cause that is something most models are not upto the mark at yet… so it could be something like that!
+Okay… using the GPT-4 and o1 in last 2 weeks have made me realise it’s better at agentic control and those kinds of stuff.
+I was deleting a conda environment and instead of conda env list I did conda list env, and it showed an empty list... for a second I almost lost it... I thought I lost everything, all at once!
+Is Cursor dead😭 https://t.co/7kuWgZQFu3
+Wow… this is so cool!!👀 https://t.co/aMgrwwRiEp
+If we can’t win, you should win…. Omg Toto😭
+What an innovative Ad campaign by Cadbury!
+@Poan__Sapdi Hi... why am I up?
+As a ML guy nothing excites me more than large well structured cleaned datasets… Excellent work by everyone, and of course, exceptional contributions by lovely peeps here @universe_tbd!!
+I used to think Correlation implied Causation.
+@smith42mike Ooh!! Idk, let’s see… didn’t think of it this way
+Watching Jaspal Bhatti's PhD episode before filling my applications...
+OMG!! Why is this happening. This happens for both 4o and o1.
+My masters essays are truly not coming off well that I am wasting so much time here
+Chhado Ji!.. Vadde log Vaddi Baatein..... https://t.co/gAgAQT5ZSA
+RT @63sainz: we listen and we don’t judge: formula 1 edition https://t.co/DxKPDNkrH1
+@ZanwarSaket It’s actually quite accurate and good, we’ve used it for some research projects too… if I’m not wrong iitd were the ones who helped them set it up
+Was having a terrible day but I know now that I can code! And code well enough to be payed handsomely…
+Fuck! Fuck! Fuck!! It was paying 36Lakhs INR in Mumbai…. FUCKKKK! It’s paying well🤦‍♂️😭
+My masters essays might be drowning but he is getting this job for sure
+Implemented a whole RAG pipeline and query bot for my friends job interview in under an hour!!
+o1 for me https://t.co/TS25dF3h9l
+@sophiamyang @MistralAI @errai34 👀
+These semester end presentations have really taken a toll on all of us!
+@errai34 😆
+@Poan__Sapdi Ayy! Your 2AM club tweet after so long🥳
+@errai34 ❤️
+@errai34 You changed this thrice😂
+https://t.co/BNesqvFQ04
+https://t.co/hQrBZBzU2j 👀
+How do you expect me to deduct marks for something even I did two years back when I was doing this course? Like am I better than you, no not at all!
+Finally no more a Teaching Assistant🥳. Semester's over, grades done.
+Gpt4o Now builds complete files and lets me download it!!!?? I asked it to build me a csv using the text I gave it, and it just gave me a link to download it🤯
+Thanks 4o, I thought I was buying 30000 shares in winters, which was a bad strategy looking at global warming! https://t.co/RyG6CJ3LaS
+I used to hate teams for all sorts of reasons before. They have the worst UI, slow, poor design, everything. But this!!
+@adtprsd Well, I’ve only done it for 3 times, the forth one is next semester!
+@MattDursh It actually is, micro cracks, yielding of the steel before its even put up, just basically ideas for disasters!
+@neurostrow I'll reach out man! Thanks!
+I just registered for a course called "Hydraulic Engineering" for my next semester.
+👀 https://t.co/A7bi5eGDee
+RT @MeeraAIIT: 12. Innovative Project Proposal:
+RT @MeeraAIIT: 8. Comprehensive Research Synthesis:
+RT @MeeraAIIT: 4. Complex Data Insights:
+RT @MeeraAIIT: 2. In-Depth Article Analysis:
+Why does my Americano look like a cappuccino? https://t.co/VIkv20tSKs
+@smith42mike 😂😂
+Hate being treated as Oscar Piastri for someone who’s not even as good as Lando, forget about comparing with Lewis or Max
+@mprkhrst @amasad Would love that, thank you!
+My life is ruined so I’m guessing this will make it better🥲 https://t.co/o59vgsMVH3
+Mikes legs were his biggest disadvantage
+What an underwhelming match😞… I’m just surprised Mike could take these punches at such an age
+@kevinschawinski Haha… true😁
+Damnn!!
+@adtprsd She actually does😭… that’s why I was sooo confused, like is she praising him or hating him??
+@kevinschawinski Wooow… that’s quite a mature perspective which I haven’t seen anyone share yet, Thanks Kevin!
+Is it weird that I thought this was an appreciation post for him and was happy about it? Am I too genZ for this debate? https://t.co/D1FxkDvsTO
+RT @thel3l: Apple released a hearing aids feature for the AirPods Pro a while ago. I bought a pair for grandma, but then realized that the…

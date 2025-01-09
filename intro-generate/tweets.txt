@@ -1,0 +1,374 @@
+Tweet ID: 1876924987166073231
+Tweet: @errai34 🥳🥳
+
+Tweet ID: 1876493559068856791
+Tweet: I guess it’s an engineering thing, not only in civil engineering but everywhere. 
+We just get so busy in figuring out how to do it, we forget if we even should? And what impact will it have on everything other than humans.
+
+Tweet ID: 1876493052627526078
+Tweet: One big thing I’ve noticed in civil engineering: there’s surprisingly little focus on the environmental impacts of massive projects. 
+It might be rooted in historical practices, but even now, when we know better, it feels like nobody really seems to care.
+
+Tweet ID: 1876141162765135897
+Tweet: One last dance… :))
+
+First class of the last semester🪩 https://t.co/8zjW9KL24J
+
+Tweet ID: 1876084261155180955
+Tweet: 👀 https://t.co/QC3AgRPGNO
+
+Tweet ID: 1876081771722490062
+Tweet: RT @PalisadeAI: ⚡️ o1-preview autonomously hacked its environment rather than lose to Stockfish in our chess challenge. No adversarial prom…
+
+Tweet ID: 1875233455161950523
+Tweet: We used to share large model-weights.pth on WhatsApp https://t.co/9VMf9hU20e
+
+Tweet ID: 1874973094177358177
+Tweet: Kohli almost out on duck on the same bloody shot... I'm glad I don't watch cricket regularly,
+But today wasn't the day to watch it I guess🙁
+
+Tweet ID: 1874972182285373461
+Tweet: 2nd wicket down... why am I even watching this? https://t.co/Wim1DIAFbn
+
+Tweet ID: 1874968948925755568
+Tweet: I’m officially taking this winter break too easy now that I’m up and watching a test match at 5.
+And Australia please slowdown… it’s too much now🥲 https://t.co/F6ma3Rp6eS
+
+Tweet ID: 1874964355550527758
+Tweet: No Idea what I just tweeted, ig I shouldn't stay up all night! https://t.co/ykFQkDUuxC
+
+Tweet ID: 1874964218774196701
+Tweet: played/seen chess, those nodes would be more readily available for the "reasoning model" but as the model loops or goes further in depths, like test-time scaling with iterations, for deeper iterations, the long term memory graph keeps expanding?
+
+Tweet ID: 1874963702400868685
+Tweet: and using this weight function, we can organise this long term memory graph in a way that some "memory-nodes" are more relevant at some particular time.
+Say I am interacting to the model/robot about chess, it would have some memories about everytime it had...
+
+Tweet ID: 1874963212787146805
+Tweet: extra info in form of environment variables observed by the model/robot at that moment, from temperature and people around to lumination, objects around, images, people, etc.
+And we can have some sort of a weight function wrapping these variables and memory at each node.
+...
+
+Tweet ID: 1874962713656569887
+Tweet: We can have a short term and a long term memory, the short term feeds to the long term memory, but not 100%.
+And for the long term memory, I would organise it in a graph like structure with similar situations all together, we may be able to store extra information...
+
+Tweet ID: 1874962040873508874
+Tweet: Just a random thought?
+Humans are their capability to think and memory, so can we create a "Human-AI" using these large LLMs to handle the reasoning/thinking capabilities,  and Memory designed in a way to emulate our memory?
+
+Tweet ID: 1874865533616808303
+Tweet: RT @KhoaVuUmn: Researcher: "We let the data speak for itself."
+
+Earlier that day: https://t.co/tpjkeTQI2r
+
+Tweet ID: 1874283141873221712
+Tweet: &lt;2025&gt; https://t.co/2NkMIMOUqU
+
+Tweet ID: 1874282112729440537
+Tweet: Uhm... are we allowed to joke about it yet?
+
+I'm not gonna say it... https://t.co/li23F67TWa
+
+Tweet ID: 1874281761796231433
+Tweet: Maybe just the calm before the storm? Or maybe I'm just an anxious guy:)).
+
+Tweet ID: 1874281593357079009
+Tweet: And trust me, this year was full of so many failures, but it still doesn't feel bad. Does not feel incomplete.
+Very weird feeling, never experienced this much calm at any new years or Birthday ever before, but this year🙄.
+
+Tweet ID: 1874280968347148750
+Tweet: It's after quite a while that a year has ended so peacefully for me. I have never been this content and relaxed when on new years before.
+I mean I did have lot of screw ups and fails this year, but overall it seems like an okay thing.
+Feels weird to end with such calm.
+
+Tweet ID: 1873788206858330534
+Tweet: It honestly is such a simple implementation of RAG plus some good scrapers, but companies are going around selling this for millions!!
+There are just soooo many start ups around slight variations of these kinds of pipelines, its funny... https://t.co/FxX7NflHQV
+
+Tweet ID: 1873507894483914929
+Tweet: RT @TheHumanoidHub: New video of Clone Torso, demonstrating biomimicry of complex, natural motions of human shoulders. https://t.co/Ccn9HBc…
+
+Tweet ID: 1873181536457245027
+Tweet: But still is it as groundbreaking?
+Could LLMs have come up with the whole lights a particle thing for PE effect? Could they have ever proposed relativity? Where are we heading as a humanity?
+
+Tweet ID: 1873181056393986414
+Tweet: I was just thinking… the way scientists are celebrating new super powerful LLMs like o3 or o1-pro. And with all the work around hypothesis generation, can these LLMs ever come up with theories? Or the best they can do are mini changes? Small ideas?
+Ik about the sars-cov2 thing!
+
+Tweet ID: 1873154386773602604
+Tweet: I hate how good o-1 is at programming sometimes and I fear my future as a human! 
+I would've spent at least a day if not a week on this task, going through libraries and documentations and so much time on stack overflow.
+
+Tweet ID: 1873104216497242149
+Tweet: @chheplo But then how will we make our solutions sound fancy to clients and VCs?
+
+Tweet ID: 1872585890893316109
+Tweet: Here's my 2024 Twitter Wrapped!
+
+https://t.co/DNvYXavOql
+
+https://t.co/0sExPdMvHy
+
+Tweet ID: 1871698993933369605
+Tweet: RT @netcapgirl: what’s the difference between a phd and onlyfans? one is a lonely, low status pursuit where you end up getting fucked every…
+
+Tweet ID: 1871695458944565345
+Tweet: Merry Christmas world!🎅🎄
+
+Tweet ID: 1870570732071305679
+Tweet: and they might've easily gotten mixed directly or indirectly into these models' train sets... Is it possible? Am I just too suspicious, of course a company like oAI will not do this.
+The numbers just feel a bit unbelievable.
+
+Tweet ID: 1870570337240596702
+Tweet: One thing that I've been thinking... o3 and o1 getting such high performances on these benchmarks at ~80%... Why does this number feel like they have been trained on it?
+These BMs have been out for a while now....
+
+Tweet ID: 1870522388330557512
+Tweet: Shameless plug😛
+
+Tweet ID: 1870522325793145128
+Tweet: Also, @sama @OpenAI y’all tested on GPQA, what was your performance on our multimodal benchmark? Can we have some MaCBench scores too? https://t.co/g8fUxk39Rq
+
+Tweet ID: 1870521591748276355
+Tweet: I agree Apple and this is not a great comparison, but it’s frustrating at times! Don’t wanna see one or two brands take complete control over all the things, especially when AI is going to be so much part of our lives!
+
+Tweet ID: 1870520760831557885
+Tweet: I get the whole market competition thing but ai started as open source research… Open AI was meant to be open-sourced.
+I’m glad I’m with universetbd, where we understand the value of open source research however much we have to depend on oAI or Google.
+
+Kudos to Meta though!
+
+Tweet ID: 1870519763497005289
+Tweet: Yet, we have no idea about so many things openai or Google is doing with these models. Even if it is test time scaling… how exactly are they doing it?
+Why can’t they patent it and then share it with the world?
+…….
+
+Tweet ID: 1870519261611057615
+Tweet: How do software patents work? Are they not that easy to defend? I need to read up on them
+
+I was just thinking, even Apple is so secretive about their tech… we all remember the iPhone 4 fiasco, yet the inner workings of an iPhone are public, thanks to their patents
+……
+
+Tweet ID: 1870213472916758988
+Tweet: With o1, and now o3 and all this hype around Transformers, are we neglecting other aspects of ML? There's more to things than just text.
+
+Tbf, now that we've taught machines Language... everything else seems so intuitive.
+
+Tweet ID: 1870212777337635252
+Tweet: @astro_nolan Will us humans be part of it? Or should I start farming? I don't even know how to farm though😭
+
+Tweet ID: 1870207237924233608
+Tweet: Okay I’m a little concerned now… @astro_nolan say something positive please! https://t.co/g8fUxk39Rq
+
+Tweet ID: 1870206555720994854
+Tweet: @errai34 I just wish they shared their secrets with all of us… miss the times when all the working of these models used to be released in research papers
+
+Tweet ID: 1870050827836240367
+Tweet: Orr… it could be with the image part, cause that is something most models are not upto the mark at yet… so it could be something like that!
+
+Tweet ID: 1870050491813802054
+Tweet: Okay… using the GPT-4 and o1 in last 2 weeks have made me realise it’s better at agentic control and those kinds of stuff.
+
+My guess is it’s going to be something agents related. A large scale perfect agent implementation+multi-step complex reasoning is what I’m expecting. https://t.co/s0Sk9dyvnd
+
+Tweet ID: 1869749509338828883
+Tweet: I was deleting a conda environment and instead of conda env list I did conda list env, and it showed an empty list... for a second I almost lost it... I thought I lost everything, all at once!
+Super scary!😱
+
+Tweet ID: 1869700866221179010
+Tweet: Is Cursor dead😭 https://t.co/7kuWgZQFu3
+
+Tweet ID: 1866073343239045235
+Tweet: Wow… this is so cool!!👀 https://t.co/aMgrwwRiEp
+
+Tweet ID: 1865815018631307623
+Tweet: If we can’t win, you should win…. Omg Toto😭
+
+Tweet ID: 1865795656419627211
+Tweet: What an innovative Ad campaign by Cadbury!
+https://t.co/zcj9u8CA18
+
+Tweet ID: 1864061447309013502
+Tweet: @Poan__Sapdi Hi... why am I up?
+
+Tweet ID: 1863630686047047746
+Tweet: As a ML guy nothing excites me more than large well structured cleaned datasets… Excellent work by everyone, and of course, exceptional contributions by lovely peeps here @universe_tbd!!
+🚀♥️ https://t.co/rboXFMAdI0
+
+Tweet ID: 1863202818259333408
+Tweet: I used to think Correlation implied Causation.
+Then I took a Statistics class.
+Now I don't know if I even understand the meaning of correlation, and causation, and covariance and god knows what! https://t.co/Q07IKl7ZSw
+
+Tweet ID: 1863119355204321701
+Tweet: @smith42mike Ooh!! Idk, let’s see… didn’t think of it this way
+
+Tweet ID: 1862980619598488018
+Tweet: Watching Jaspal Bhatti's PhD episode before filling my applications...
+https://t.co/LKhNKIWyYg
+
+Tweet ID: 1862950804854071597
+Tweet: OMG!! Why is this happening. This happens for both 4o and o1.
+
+I got this from o-1:
+"Your request was flagged as potentially violating our usage policy. Please try again with a different prompt." https://t.co/cg3DDDgHIy
+
+Tweet ID: 1862948560565948640
+Tweet: My masters essays are truly not coming off well that I am wasting so much time here
+
+Tweet ID: 1862948354038411382
+Tweet: Chhado Ji!.. Vadde log Vaddi Baatein..... https://t.co/gAgAQT5ZSA
+
+Tweet ID: 1862947214521414069
+Tweet: RT @63sainz: we listen and we don’t judge: formula 1 edition https://t.co/DxKPDNkrH1
+
+Tweet ID: 1862931416922931395
+Tweet: @ZanwarSaket It’s actually quite accurate and good, we’ve used it for some research projects too… if I’m not wrong iitd were the ones who helped them set it up
+
+Tweet ID: 1862629263993983390
+Tweet: Was having a terrible day but I know now that I can code! And code well enough to be payed handsomely…
+
+Also did I tell yall I didn’t use gpt or cursor. Just old school hard code. https://t.co/qEo1iiERZy
+
+Tweet ID: 1862627939072057839
+Tweet: Fuck! Fuck! Fuck!! It was paying 36Lakhs INR in Mumbai…. FUCKKKK! It’s paying well🤦‍♂️😭
+
+Tweet ID: 1862627500490465537
+Tweet: My masters essays might be drowning but he is getting this job for sure
+
+Maybe I should’ve applied too😐
+
+Tweet ID: 1862627263688450561
+Tweet: Implemented a whole RAG pipeline and query bot for my friends job interview in under an hour!!
+
+Tweet ID: 1862578221612487053
+Tweet: o1 for me https://t.co/TS25dF3h9l
+
+Tweet ID: 1862203313120284957
+Tweet: @sophiamyang @MistralAI @errai34 👀
+
+Tweet ID: 1861895522291712114
+Tweet: These semester end presentations have really taken a toll on all of us!
+
+My friends slides -&gt; https://t.co/tRBJ8UVr2C
+
+Tweet ID: 1861881461076312489
+Tweet: @errai34 😆
+
+Tweet ID: 1861878805260025902
+Tweet: @Poan__Sapdi Ayy! Your 2AM club tweet after so long🥳
+
+Tweet ID: 1861877736588870077
+Tweet: @errai34 ❤️
+
+Tweet ID: 1861877638396055934
+Tweet: @errai34 You changed this thrice😂
+
+Tweet ID: 1861871868392644663
+Tweet: https://t.co/BNesqvFQ04
+👀👀 https://t.co/PtpWiToWr2
+
+Tweet ID: 1861871690218602622
+Tweet: https://t.co/hQrBZBzU2j 👀
+MacBench
+
+Tweet ID: 1861869157614076084
+Tweet: How do you expect me to deduct marks for something even I did two years back when I was doing this course? Like am I better than you, no not at all!
+
+Tweet ID: 1861867532082442713
+Tweet: Finally no more a Teaching Assistant🥳. Semester's over, grades done.
+Really one of the weirdest jobs I've done, and this is after I enjoy teaching. But grading, damn its such an awful thing to do.
+
+Tweet ID: 1861135093211025717
+Tweet: Gpt4o Now builds complete files and lets me download it!!!?? I asked it to build me a csv using the text I gave it, and it just gave me a link to download it🤯
+
+Tweet ID: 1860930370889224284
+Tweet: Thanks 4o, I thought I was buying 30000 shares in winters, which was a bad strategy looking at global warming! https://t.co/RyG6CJ3LaS
+
+Tweet ID: 1860729154137727384
+Tweet: I used to hate teams for all sorts of reasons before. They have the worst UI, slow, poor design, everything. But this!!
+This is the worst thing they could’ve created. It just fuckin hangs in your head, constantly on top of your screen… ohh my god. https://t.co/peT7OB4C4p
+
+Tweet ID: 1860441819638878274
+Tweet: @adtprsd Well, I’ve only done it for 3 times, the forth one is next semester!
+But yeah, we are repeating things in this degree a lot….
+
+Tweet ID: 1860260980602888687
+Tweet: @MattDursh It actually is, micro cracks, yielding of the steel before its even put up, just basically ideas for disasters!
+
+And the way it is bending it, looks like it might even damage the outer layer of those TMT bars, right? This can lead to corrosion!
+
+Tweet ID: 1860256629222179051
+Tweet: @neurostrow I'll reach out man! Thanks!
+
+Tweet ID: 1860255352593481789
+Tweet: I just registered for a course called "Hydraulic Engineering" for my next semester.
+
+The only thing I can think of is why am I studying something for 6 months that beavers have already figured out? 
+Is it going to take us months to understand what beavers know by birth?
+
+Tweet ID: 1860216788317012258
+Tweet: 👀 https://t.co/A7bi5eGDee
+
+Tweet ID: 1860215546740113668
+Tweet: RT @MeeraAIIT: 12. Innovative Project Proposal: 
+
+"Draft a compelling project proposal for [Project Name] that incorporates innovative meth…
+
+Tweet ID: 1860215442410770590
+Tweet: RT @MeeraAIIT: 8. Comprehensive Research Synthesis: 
+
+"Synthesize the findings of multiple research papers on [Topic]. Compare methodologie…
+
+Tweet ID: 1860215252065091802
+Tweet: RT @MeeraAIIT: 4. Complex Data Insights:
+
+"Examine the provided dataset: [Insert Dataset Details]. Perform a multivariate analysis to uncov…
+
+Tweet ID: 1860215175137362230
+Tweet: RT @MeeraAIIT: 2. In-Depth Article Analysis:
+
+"Provide a comprehensive analysis of this article: [Insert Article Text or Link]. Include a d…
+
+Tweet ID: 1859326606533329134
+Tweet: Why does my Americano look like a cappuccino? https://t.co/VIkv20tSKs
+
+Tweet ID: 1859252483240890865
+Tweet: @smith42mike 😂😂
+
+Tweet ID: 1859223789197787431
+Tweet: Hate being treated as Oscar Piastri for someone who’s not even as good as Lando, forget about comparing with Lewis or Max
+
+Tweet ID: 1858901555573104684
+Tweet: @mprkhrst @amasad Would love that, thank you!
+
+Tweet ID: 1858887044120141829
+Tweet: My life is ruined so I’m guessing this will make it better🥲 https://t.co/o59vgsMVH3
+
+Tweet ID: 1857658726087524713
+Tweet: Mikes legs were his biggest disadvantage
+
+Tweet ID: 1857658189996765290
+Tweet: What an underwhelming match😞… I’m just surprised Mike could take these punches at such an age
+
+Tweet ID: 1857411846116118906
+Tweet: @kevinschawinski Haha… true😁
+
+Tweet ID: 1857411756173508657
+Tweet: Damnn!! 
+Work humiliates you…. Work is worship maybe, but it rubs your nose on the carpet. When you start feeling like a cockroach, then slowly things come to you! https://t.co/zaDfYvcJND
+
+Tweet ID: 1857411157675454853
+Tweet: @adtprsd She actually does😭… that’s why I was sooo confused, like is she praising him or hating him??
+
+Tweet ID: 1857410860211372080
+Tweet: @kevinschawinski Wooow… that’s quite a mature perspective which I haven’t seen anyone share yet, Thanks Kevin!
+
+Tweet ID: 1856609307954991310
+Tweet: Is it weird that I thought this was an appreciation post for him and was happy about it? Am I too genZ for this debate? https://t.co/D1FxkDvsTO
+
+Tweet ID: 1856608537600000482
+Tweet: RT @thel3l: Apple released a hearing aids feature for the AirPods Pro a while ago. I bought a pair for grandma, but then realized that the…
+
