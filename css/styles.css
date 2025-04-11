@@ -5,7 +5,7 @@
   box-sizing: border-box;
 }
 
-/* Define your “gray-950-ink” for the overall background */
+/* Define your "gray-950-ink" for the overall background */
 :root {
   --color-gray-950-ink: 15 14 13; /* Or your desired values */
 }
@@ -581,4 +581,134 @@ footer {
   .footer-social {
     gap: 15px;
   }
+}
+
+/* Blog Section */
+#blog {
+  padding: 60px 20px;
+}
+
+.blog-entry {
+  background-color: #000000;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.blog-entry:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.blog-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.blog-entry h3 {
+  margin: 0 0 10px;
+  font-size: 1.5em;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.blog-subtitle {
+  margin: 0 0 15px;
+  font-family: 'Aileron', sans-serif;
+  color: #cccccc;
+  font-size: 1.1em;
+}
+
+.blog-excerpt {
+  margin: 0 0 10px;
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+.blog-date {
+  margin: 0;
+  font-family: 'Aileron', sans-serif;
+  color: #888888;
+  font-size: 0.9em;
+}
+
+/* Blog Post Styles */
+#blog-post {
+  padding: 60px 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.blog-post-container {
+  background-color: #000000;
+  padding: 40px;
+  border-radius: 8px;
+}
+
+.blog-post-container h1 {
+  margin: 0 0 20px;
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.blog-post-meta {
+  margin: 0 0 30px;
+  font-family: 'Aileron', sans-serif;
+  color: #888888;
+}
+
+.blog-post-date,
+.blog-post-category {
+  margin-right: 20px;
+}
+
+.blog-post-content {
+  color: #cccccc;
+  line-height: 1.8;
+}
+
+.blog-post-content h2 {
+  margin: 30px 0 20px;
+  font-size: 1.8em;
+  color: #ffffff;
+}
+
+.blog-post-content h3 {
+  margin: 25px 0 15px;
+  font-size: 1.4em;
+  color: #ffffff;
+}
+
+.blog-post-content p {
+  margin: 0 0 20px;
+}
+
+.blog-post-content blockquote {
+  margin: 20px 0;
+  padding: 20px;
+  border-left: 4px solid #ffcc00;
+  background-color: rgba(255, 255, 255, 0.05);
+  font-style: italic;
+}
+
+.blog-post-navigation {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.back-to-blog {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.back-to-blog:hover {
+  background-color: #1a1a1a;
 }
