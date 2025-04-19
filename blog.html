@@ -5,11 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Pranav - Blog</title>
 
-  <!-- Base URL for all relative links -->
-  <base href="https://pranavkhetarpal.github.io/my-webpage/">
-
-  <!-- Main CSS file -->
-  <link rel="stylesheet" href="css/styles.css" />
+  <!-- GitHub Pages path handling -->
+  <script>
+    // Function to get the correct base path for GitHub Pages
+    function getBasePath() {
+      const isGitHubPages = window.location.hostname.includes('github.io');
+      return isGitHubPages ? '/my-webpage' : '';
+    }
+    
+    // Create a variable we can use in our CSS link
+    window.basePath = getBasePath();
+    document.write('<link rel="stylesheet" href="' + window.basePath + '/css/styles.css" />');
+  </script>
 
   <!-- Load Lora (for main body & headings) from Google Fonts -->
   <link
@@ -34,10 +41,10 @@
     
     <!-- Blog Entry 1 -->
     <div class="blog-entry">
-      <a href="blog-posts/interstellar-blog.html" class="blog-link">
+      <a href="interstellar-blog.html" class="blog-link">
         <h3>How will we build a shelter on Dr. Mann's planet from Interstallar???</h3>
         <p class="blog-subtitle">
-          <em>Design, Durability, and Repairability of Reinforced Concrete Structures under Extreme Environmental Conditions. Using Dr. Mann’s Planet from Interstellar as a Case Study</em>
+          <em>Design, Durability, and Repairability of Reinforced Concrete Structures under Extreme Environmental Conditions. Using Dr. Mann's Planet from Interstellar as a Case Study</em>
         </p>
         <p class="blog-excerpt">A few weeks back I was just reminded that I am a civil engineer too, and I can work a bit in it. So, I wrote this paper for a class in my college, and the topic was this just for fun...</p>
         <p class="blog-date">April 5, 2025</p>

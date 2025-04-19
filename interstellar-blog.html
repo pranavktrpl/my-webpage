@@ -5,12 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Pranav - Blog Post</title>
 
-  <!-- Base URL for all relative links -->
-  <base href="https://pranavkhetarpal.github.io/my-webpage/">
-
-
-  <!-- Main CSS file -->
-  <link rel="stylesheet" href="../../css/styles.css" />
+  <!-- GitHub Pages path handling -->
+  <script>
+    // Function to get the correct base path for GitHub Pages
+    function getBasePath() {
+      const isGitHubPages = window.location.hostname.includes('github.io');
+      return isGitHubPages ? '/my-webpage' : '';
+    }
+    
+    // Create a variable we can use in our CSS link
+    window.basePath = getBasePath();
+    document.write('<link rel="stylesheet" href="' + window.basePath + '/css/styles.css" />');
+  </script>
 
   <!-- Load Lora (for main body & headings) from Google Fonts -->
   <link
@@ -23,11 +29,21 @@
     rel="stylesheet"
     href="https://fonts.cdnfonts.com/css/aileron"
   />
+  
+  <!-- Dynamically load JavaScript with the correct path
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      // Create script element for header.js
+      const script = document.createElement('script');
+      script.src = window.basePath + '/js/header.js';
+      document.body.appendChild(script);
+    });
+  </script> -->
 </head>
 <body>
   
   <!-- Include Header -->
-  <div data-include="../../header.html"></div>
+  <div data-include="header.html"></div>
   
   <!-- Blog Post Section -->
   <section id="blog-post">
@@ -521,17 +537,14 @@
       
       <!-- Navigation Back to Blog List -->
       <div class="blog-post-navigation">
-        <a href="../blog.html" class="back-to-blog">← Back to Blog</a>
+        <a href="blog.html" class="back-to-blog">← Back to Blog</a>
       </div>
       
     </div> <!-- end of .blog-post-container -->
   </section>
   
   <!-- Include Footer -->
-  <div data-include="../../footer.html"></div>
-
-  <!-- Include Header and Footer JavaScript -->
-  <script src="../../js/header.js"></script>
+  <div data-include="footer.html"></div>
 
 </body>
 </html>

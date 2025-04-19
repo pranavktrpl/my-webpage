@@ -5,11 +5,18 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Pranav - Projects</title>
 
-  <!-- Base URL for all relative links -->
-  <base href="https://pranavkhetarpal.github.io/my-webpage/">
-
-  <!-- Main CSS file -->
-  <link rel="stylesheet" href="css/styles.css" />
+  <!-- GitHub Pages path handling -->
+  <script>
+    // Function to get the correct base path for GitHub Pages
+    function getBasePath() {
+      const isGitHubPages = window.location.hostname.includes('github.io');
+      return isGitHubPages ? '/my-webpage' : '';
+    }
+    
+    // Create a variable we can use in our CSS link
+    window.basePath = getBasePath();
+    document.write('<link rel="stylesheet" href="' + window.basePath + '/css/styles.css" />');
+  </script>
 
   <!-- Load Lora (for main body & headings) from Google Fonts -->
   <link
